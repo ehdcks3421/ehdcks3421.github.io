@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Style Guide
-image: (https://programmers.co.kr/)
+image: Picture.jpg
 date: 2021-03-01 13:35:20 +0200
 tags:
 categories: Programmers_level1
