@@ -55,7 +55,7 @@ class Solution {
             list.add(iter.next()); 
         }
         
-        Collections.sort(list); 
+        Collections.sort(list);
         
         return list;
     }
