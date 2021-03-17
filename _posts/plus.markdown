@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Style Guide
+title: Plus
 image: Picture.jpg
 date: 2021-03-01 13:35:20 +0200
 tags:
