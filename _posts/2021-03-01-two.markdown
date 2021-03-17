@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Plus
-image: https://programmers.co.kr/learn/courses/30/lessons/68644
+image: https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5830%2F2021%2F02%2F25%2F0000002860_001_20210225091739520.jpg&type=sc960_832
 date: 2021-03-01 13:35:20 +0200
 tags:
 categories: programmers-level1
@@ -82,7 +82,6 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 #### Images
 
-![](https://programmers.co.kr/)
 
 ***
 
