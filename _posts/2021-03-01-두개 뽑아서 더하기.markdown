@@ -22,7 +22,7 @@ categories: programmers-level1
   
 </br></br>
 
-#### < 입출력 예 >
+### < 입출력 예 >
 
 |numbers|result|
 |:---:|:---:| 
