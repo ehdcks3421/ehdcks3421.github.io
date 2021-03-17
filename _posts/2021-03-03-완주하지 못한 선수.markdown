@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "두개 뽑아서 더하기"
+title: "완주하지 못한 선수"
 image: 프로그래머스.jpg
 date: 2021-03-03 13:35:20 +0200
 tags:
