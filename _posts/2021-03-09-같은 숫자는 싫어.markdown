@@ -2,7 +2,7 @@
 layout: post
 title: 같은 숫자는 싫어
 image: 프로그래머스.jpg
-date: 2021-03-07 13:35:20 +0200
+date: 2021-03-09 13:35:20 +0200
 tags:
 categories: programmers-level1
 ---
