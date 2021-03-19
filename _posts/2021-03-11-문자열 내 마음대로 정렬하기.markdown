@@ -27,10 +27,10 @@ categories: programmers-level1
 
 **< 입출력 예 >**
 
-|String|n|return|
+|String| n |return|
 |:---:|:---:|:---:|
-|["sun", "bed", "car"]|1|["car", "bed", "sun"]|
-|["abce", "abcd", "cdx"]|2|["abcd", "abce", "cdx"]|
+|["sun", "bed", "car"]|  1  |["car", "bed", "sun"]|
+|["abce", "abcd", "cdx"]|  2  |["abcd", "abce", "cdx"]|
 
 
 **< 입출력 예 설명 >**  
