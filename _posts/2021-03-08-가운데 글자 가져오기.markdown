@@ -36,7 +36,6 @@ categories: programmers-level1
 
 
 {% highlight java %}
-import java.util.*;
 
 import java.util.*;
 class Solution {
