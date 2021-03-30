@@ -27,7 +27,7 @@ categories: programmers-level1
 
 |arr1|arr2|return|
 |:---:|:---:|:---:|
-|[{1 , 2} , {2, 3}]|[{3 , 4} , {5 , 6}]|[{4 , 6} , {7 , 9}]|
+|[[ 1,2 ],[ 2,3 ]]|[[ 3,4 ],[ 5,6 ]]|[[ 4,6 ],[ 7,9 ]]|
 
 
   
@@ -55,16 +55,6 @@ class Solution {
         return answer;
     }
 }
-
-public class Level1 {
-	public static void main(String[] args) {
-		Solution s=new Solution();
-		int arr1[][]= {{1},{2}};
-		int arr2[][]= {{3},{4}};
-		System.out.println(Arrays.deepToString(s.solution(arr1, arr2)));
-		
-		
-	}
-}{% endhighlight %}
+{% endhighlight %}
 
 ***
