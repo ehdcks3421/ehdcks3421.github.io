@@ -2,7 +2,7 @@
 layout: post
 title: 행렬의 덧셈
 image: 프로그래머스.jpg
-date: 2021-03-30 16:30:20 +0200
+date: 2021-03-30 17:30:20 +0200
 tags:
 categories: programmers-level1
 ---
@@ -55,6 +55,17 @@ class Solution {
         return answer;
     }
 }
+
+public class Level1 {
+	public static void main(String[] args) {
+		Solution s=new Solution();
+		int arr1[][]= {{1},{2}};
+		int arr2[][]= {{3},{4}};
+		System.out.println(Arrays.deepToString(s.solution(arr1, arr2)));
+			
+	}
+}
+	
 {% endhighlight %}
 
 ***
