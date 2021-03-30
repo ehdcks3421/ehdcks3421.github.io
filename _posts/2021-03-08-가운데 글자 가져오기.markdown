@@ -1,33 +1,33 @@
 ---
 layout: post
-title: 가운데 글자 가져오기
+title: "2016"
 image: 프로그래머스.jpg
-date: 2021-03-08 13:35:20 +0200
+date: 2021-03-07 13:35:20 +0200
 tags:
 categories: programmers-level1
 ---
-<center>https://programmers.co.kr/learn/courses/30/lessons/12903</center>
+<center>https://programmers.co.kr/learn/courses/30/lessons/12901</center>
 
 ***
 
 
-**< 문제 설명 >**
-단어 s의 가운데 글자를 반환하는 함수, solution을 만들어 보세요. 단어의 길이가 짝수라면 가운데 두글자를 반환하면 됩니다.  
+**< 문제 설명 >**  
+2016년 1월 1일은 금요일입니다. 2016년 a월 b일은 무슨 요일일까요? 두 수 a ,b를 입력받아 2016년 a월 b일이 무슨 요일인지 리턴하는 함수, solution을 완성하세요. 요일의 이름은 일요일부터 토요일까지 각각 SUN,MON,TUE,WED,THU,FRI,SAT
 
-
+입니다. 예를 들어 a=5, b=24라면 5월 24일은 화요일이므로 문자열 "TUE"를 반환하세요.  
 
 **< 제한사항 >**
-* s는 길이가 1 이상, 100이하인 스트링입니다.
+* 2016년은 윤년입니다.
+* 2016년 a월 b일은 실제로 있는 날입니다. (13월 26일이나 2월 45일같은 날짜는 주어지지 않습니다)
 
  <br>
 
 
 **< 입출력 예 >**
 
-|array|commands|
-|:---:|:---:|
-|"abcde"|"c"|
-|"qwer"|"we"|
+|array|commands|return|
+|:---:|:---:|:---:|
+|5|24|"TUE"|
 
 
 ***
@@ -36,21 +36,26 @@ categories: programmers-level1
 
 
 {% highlight java %}
-
 import java.util.*;
+
 class Solution {
-    public String solution(String s) {
-        String answer = "";
-        if(s.length()%2!=0)
-        {
-        	answer=s.substring(s.length()/2,s.length()/2+1);
-        }
-        else if(s.length()%2==0)
-        {
-        	answer=s.substring(s.length()/2-1,s.length()/2+1);
-        }
+public static String solution(int a, int b) {
+        	int[] Month= {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; 
+    	String[] Date= {"FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"};
+    	int count=0;
+    	
+    	for(int i=1; i<a; i++)
+    	{
+    		count+=Month[i-1];
+    	}
+    	
+    	count=count+(b-1);
+
+        String answer = Date[count%7];
+    
         return answer;
     }
-}{% endhighlight %}
+}    
+{% endhighlight %}
 
 ***

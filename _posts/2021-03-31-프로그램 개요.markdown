@@ -4,7 +4,7 @@ title: JAVA-FX 프로그램 개요
 image: 채팅.jpg
 date: 2021-03-31 18:30:20 +0200
 tags:
-categories: JAVA-FX-채팅프로그램
+categories: JAVA-FX-ChatingProgram
 ---
 
 ***
